@@ -1,0 +1,95 @@
+﻿body {
+    background:#eee;
+    color:#777;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #055160;
+    padding:0;
+    margin:0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #777;
+    letter-spacing: 2.8px;
+    padding: 0;
+    margin: 0;
+
+}
+
+h3 {
+    color: #055160;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+.section{
+    display:flex;
+}
+
+.global-container {
+    background: #fff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 5px;
+    width: 800px;
+}
+
+.header {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.header .descripcion {
+    width: 70%;
+    padding: 15px 0px 12px 30px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.header .name {
+    width:fit-content;
+}
+
+.header .sub-title {
+    width: 100%;
+    color: #333;
+    text-align: center;
+}
+
+.info{
+    border-right:1px solid #ccc;
+    padding-right:20px;
+    width:33%;
+}
+
+.foto{
+    width:100%;
+}
+
+.info h3{
+    margin-top:20px;
+}
+
+.skills{
+    width: 33.3%;
+    padding: 10px 25px;
+}
+
+.tecnology-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:10px;
+}
+
+.tecnology-item .progress{
+    width:100%;
+}

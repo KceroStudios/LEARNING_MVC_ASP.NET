@@ -1,0 +1,15 @@
+﻿@model HomeIndexViewModels
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<partial name="_header" />
+
+<section class="section">
+    <partial name="_info" />
+    <partial name="_skills" />
+    <partial name="_contact" model="Model.Proyectos" />
+</section>
+
+

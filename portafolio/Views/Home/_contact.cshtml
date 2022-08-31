@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Proyecto>
+<div class="contact col-4">
+
+    @if (Model is not null)
+    {
+        <div>
+            <h3>Mis trabajos recientes</h3>
+            <p>bla bla bla</p>
+        </div>
+
+        <div>
+            @foreach (var proyecto in Model)
+            {
+                <div>
+                    <img src="@proyecto.Img">
+                    <h5>@proyecto.Titulo</h5>
+                    <p>@proyecto.Descripcion</p>
+                    <a href="@proyecto.Link">Ver Proyecto</a>
+                </div>
+            }
+        </div>
+    }
+
+    <h3>Titulo</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+    <h3>Titulo</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+    <h3>Titulo</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+</div>
